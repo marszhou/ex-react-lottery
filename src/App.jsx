@@ -65,41 +65,44 @@ class App extends Component {
               </Form>
             </Segment>
 
-            <Segment attached='top'>
-              <Statistic.Group widths='4' size='mini'>
-                <Statistic >
+            <Segment attached="top">
+              <Statistic.Group widths="4" size="mini">
+                <Statistic>
                   <Statistic.Value>进行中</Statistic.Value>
                   <Statistic.Label>状态</Statistic.Label>
                 </Statistic>
-                <Statistic >
+                <Statistic>
                   <Statistic.Value>30/50</Statistic.Value>
                   <Statistic.Label>总计抽取</Statistic.Label>
                 </Statistic>
-                <Statistic >
+                <Statistic>
                   <Statistic.Value>3/5</Statistic.Value>
                   <Statistic.Label>抽取次数</Statistic.Label>
                 </Statistic>
-                <Statistic >
-                  <Button size='large'>终止</Button>
+                <Statistic>
+                  <Button size="large">终止</Button>
                 </Statistic>
               </Statistic.Group>
-
-
             </Segment>
-            <Message color="black" size="massive" className='main-content' attached>
-    <Message.Header>
-      正在抽奖...
-    </Message.Header>
-    <p>
-    沈毅恒,余文峻,张未,徐明宽,叶芃,杨景钦,吕欣,陈俊锟,袁伟强,吴作凡,杨家齐,沈睿,翁文涛
-    </p>
-  </Message>
-  <Segment attached textAlign="center">
-  <Button type='button' color="red">抽第4组</Button>
-  <Button type='button' color="red" disabled loading>loading</Button>
-
-  </Segment>
-
+            <Message
+              color="black"
+              size="massive"
+              className="main-content"
+              attached
+            >
+              <Message.Header>正在抽奖...</Message.Header>
+              <p>
+                沈毅恒,余文峻,张未,徐明宽,叶芃,杨景钦,吕欣,陈俊锟,袁伟强,吴作凡,杨家齐,沈睿,翁文涛
+              </p>
+            </Message>
+            <Segment attached textAlign="center">
+              <Button type="button" color="red">
+                抽第4组
+              </Button>
+              <Button type="button" color="red" disabled loading>
+                loading
+              </Button>
+            </Segment>
           </Grid.Column>
         </Grid>
       </Container>
